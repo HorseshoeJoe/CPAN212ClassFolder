@@ -1,7 +1,7 @@
 const http = require("http")
 const app = http.createServer((req, res)=>{
-//    console.log(req) // request
-//    res.end("Hello") // response
+//    console.log(req) //request
+//    res.end("Hello") //response
 if(req.url == "/"){
     res.end("Hello")
 } else {
